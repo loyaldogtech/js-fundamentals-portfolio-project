@@ -10,7 +10,7 @@
         // Get the value of the symbol and date input fields
       const symbol = symbolInput.value.toUpperCase();  // Convert the symbol to uppercase
       const date = dateInput.value;
-      const apiToken = 'Cxgr689iSj3r7LMWtQkjn27wK5t9oQPylOL8TxML'; 
+      const apiToken = process.env.STOCKDATA_API_KEY; 
       const apiUrl = `https://api.stockdata.org/v1/data/eod?symbols=${symbol}&date=${date}&api_token=${apiToken}`;
       
         // Fetch the stock data from the API

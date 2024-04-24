@@ -1,11 +1,10 @@
 {
   "name": "js-fundamentals-portfolio-project",
   "version": "1.0.0",
-  "description": "",
+  "description": "portfolio project for JS Fundamentals course",
   "source": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel open"
+    "start": "parcel --open"
   },
   "keywords": [],
   "author": "",
